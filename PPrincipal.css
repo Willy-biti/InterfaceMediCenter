@@ -1,0 +1,450 @@
+                      * {
+                          font-family: arial;
+                      }
+                      
+                      body {
+                          margin: 0;
+                          padding: 0;
+                      }
+                      
+                      header {
+                          display: flex;
+                          justify-content: center;
+                          height: 120px;
+                      }
+                      
+                      .container {
+                          display: flex;
+                          justify-content: space-between;
+                          width: 990px;
+                      }
+                      
+                      .logo {
+                          display: flex;
+                          align-items: center;
+                      }
+                      
+                      .menu {
+                          display: flex;
+                          align-items: center;
+                      }
+                      
+                      nav ul,
+                      nav li {
+                          /* LISTE-STYLE: NONE sert a effacer les ponts points */
+                          list-style: none;
+                          margin: 0;
+                          padding: 0;
+                      }
+                      
+                      nav ul {
+                          display: flex;
+                      }
+                      
+                      nav a {
+                          /* DISPLAY BLOCK sert pour manupuler les contenu de A */
+                          display: block;
+                          padding: 15px;
+                          /* TEXTE DECORATION sert a eliminer le soulignement */
+                          text-decoration: none;
+                          /* TEXTE TRANSFORM sert a transformer les mots en majuscule */
+                          text-transform: uppercase;
+                          color: #727272;
+                      }
+                      
+                      nav .active a,
+                      nav a:hover {
+                          background-color: #39aae1;
+                          color: white;
+                      }
+                      
+                      #banner {
+                          display: flex;
+                          justify-content: center;
+                          background-image: url(../Projeto.html/img/medic.png);
+                          background-position: center;
+                          background-size: cover;
+                          height: 670px;
+                      }
+                      
+                      .column {
+                          flex-direction: column;
+                      }
+                      
+                      .banner1 {
+                          flex: 1;
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: center;
+                      }
+                      
+                      .banner1 h1 {
+                          color: white;
+                          font-size: 70px;
+                          text-shadow: 0px 1px 0px #555555;
+                          margin: 0;
+                          padding: 0;
+                          max-width: 350px;
+                      }
+                      
+                      .banner1 h2 {
+                          color: white;
+                          font-size: 20px;
+                          text-shadow: 0px 1px 0px #555555;
+                          margin: 0;
+                          padding: 0;
+                          max-width: 350px;
+                          margin-top: 30px;
+                      }
+                      
+                      .banner2 {
+                          height: 210px;
+                          display: flex;
+                      }
+                      
+                      .bannerA,
+                      .bannerB,
+                      .bannerC {
+                          flex: 1;
+                          color: white;
+                          padding: 20px;
+                      }
+                      
+                      .bannerA {
+                          background-color: #39aae1;
+                      }
+                      
+                      .bannerB {
+                          background-color: #0079b7;
+                      }
+                      
+                      .bannerC {
+                          display: flex;
+                          flex-direction: column;
+                          background-color: #2b4c99;
+                      }
+                      
+                      .btitle {
+                          font-size: 21px;
+                      }
+                      
+                      .desc {
+                          font-size: 12px;
+                          margin-top: 20px;
+                          margin-bottom: 20px;
+                      }
+                      
+                      .banner2 a {
+                          display: inline-block;
+                          border: 1px solid white;
+                          padding: 5px;
+                          color: white;
+                          font-size: 13px;
+                          text-decoration: none;
+                      }
+                      
+                      .hora0 .hora1,
+                      .hora2,
+                      .hora3 {
+                          display: flex;
+                      }
+                      
+                      .hora0 {
+                          display: flex;
+                          flex: 1;
+                          font-size: 21px;
+                      }
+                      
+                      .hora1 {
+                          display: flex;
+                          flex: 1;
+                          border-bottom: 1px solid #555555;
+                          margin-top: 15px;
+                          font-size: 12px;
+                      }
+                      
+                      .hora2 {
+                          display: flex;
+                          flex: 1;
+                          border-bottom: 1px solid #555555;
+                          margin-top: 15px;
+                          font-size: 12px;
+                      }
+                      
+                      .hora3 {
+                          display: flex;
+                          flex: 1;
+                          border-bottom: 1px solid #555555;
+                          margin-top: 15px;
+                          font-size: 12px;
+                      }
+                      
+                      #geral {
+                          display: flex;
+                          justify-content: center;
+                      }
+                      
+                      .general {
+                          display: flex;
+                          flex-direction: row;
+                      }
+                      
+                      .general section {
+                          display: flex;
+                          flex-direction: column;
+                          flex: 2;
+                      }
+                      
+                      .general aside {
+                          display: flex;
+                          flex-direction: column;
+                          flex: 1;
+                      }
+                      
+                      .wigdth_title {
+                          color: #000000;
+                          font-size: 19px;
+                          /* font-weight: bold 'c'est negrito */
+                          font-weight: bold;
+                          margin-top: 20px;
+                      }
+                      
+                      .wigdth_traçinho {
+                          width: 50px;
+                          height: 2px;
+                          background-color: #39aae1;
+                          margin-top: 10px;
+                      }
+                      
+                      .carréa {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                          margin-top: 10px;
+                      }
+                      
+                      .carré1,
+                      .carré2 {
+                          display: flex;
+                          background-color: #39aae1;
+                          width: 150px;
+                          height: 200px;
+                          margin-top: 30px;
+                      }
+                      
+                      .carréb {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                      }
+                      
+                      .carré3,
+                      .carré4 {
+                          display: flex;
+                          background-color: #39aae1;
+                          width: 150px;
+                          height: 200px;
+                          margin-top: 30px;
+                      }
+                      
+                      .carréc {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-between;
+                      }
+                      
+                      .carré5,
+                      .carré6 {
+                          display: flex;
+                          background-color: #39aae1;
+                          width: 150px;
+                          height: 200px;
+                          margin-top: 30px;
+                      }
+                      
+                      article .dates {
+                          display: flex;
+                      }
+                      
+                      article .dates_mois {
+                          display: flex;
+                          color: white;
+                          background-color: #0079b7;
+                          padding: 10px;
+                          margin-top: 10px;
+                          font-size: 12px;
+                      }
+                      
+                      article .dates_num {
+                          display: flex;
+                          color: white;
+                          background-color: #39aa;
+                          padding: 10px;
+                          margin-top: 10px;
+                          margin-left: 3px;
+                          font-size: 12px;
+                      }
+                      
+                      article .minifoto img {
+                          width: 100%;
+                          height: auto;
+                      }
+                      
+                      article .minifoto {
+                          margin-top: 30px;
+                      }
+                      
+                      article .titleminifoto {
+                          margin-top: 20px;
+                          margin-bottom: 20px;
+                          font-size: 23px;
+                          color: black
+                      }
+                      
+                      article .descriçãominifoto {
+                          font-size: 12px;
+                          color: #5c5c5c;
+                          /* line-height sert a donner espace aux textes */
+                          line-height: 20px;
+                      }
+                      
+                      .flex {
+                          display: flex;
+                          flex-wrap: wrap;
+                      }
+                      
+                      article {
+                          flex: 1;
+                          min-width: 300px;
+                          margin-right: 20px;
+                      }
+                      
+                      footer {
+                          display: flex;
+                          justify-content: center;
+                          background-color: #1e1e1e;
+                      }
+                      
+                      .footer_menu {
+                          display: flex;
+                      }
+                      
+                      .fm1,
+                      .fm2,
+                      .fm3 {
+                          flex: 1;
+                          color: white;
+                          padding: 20px;
+                      }
+                      
+                      .fm1 {
+                          background-color: #39aae1;
+                      }
+                      
+                      .fm2 {
+                          background-color: #0079b7;
+                      }
+                      
+                      .fm3 {
+                          background-color: #2b4c99;
+                      }
+                      
+                      .footer_area {
+                          display: flex;
+                      }
+                      
+                      .area_item {
+                          flex: 1;
+                          color: white;
+                      }
+                      
+                      .flexColumn {
+                          flex-direction: column;
+                      }
+                      
+                      footer .wigdth_title {
+                          color: white;
+                      }
+                      
+                      .footer_copy {
+                          border-top: 1px solid #2c2c2c;
+                          height: 40px;
+                          line-height: 40px;
+                          color: #5c5c5c;
+                          font-size: 12px;
+                          margin-top: 30px;
+                      }
+                      
+                      footer .tête {
+                          font-size: 23px;
+                      }
+                      
+                      footer .descri {
+                          font-size: 12px;
+                          margin-top: 10px;
+                      }
+                      
+                      footer .msg {
+                          font-size: 12px;
+                          line-height: 20px;
+                          margin-top: 20px;
+                          margin-bottom: 5px;
+                          margin-right: 10px;
+                          color: #727272;
+                      }
+                      
+                      footer .msgd {
+                          font-size: 12px;
+                          line-height: 20px;
+                          margin-top: 20px;
+                          margin-bottom: 5px;
+                          margin-right: 10px;
+                          color: white;
+                      }
+                      
+                      footer .year {
+                          color: #0079b7;
+                          font-size: 12px;
+                      }
+                      
+                      .msg strong {
+                          color: white;
+                      }
+                      
+                      footer .contact {
+                          font-size: 12px;
+                          line-height: 20px;
+                          margin-top: 20px;
+                          margin-bottom: 5px;
+                          margin-right: 10px;
+                          color: #727272;
+                      }
+                      
+                      .redes {
+                          display: flex;
+                          flex-direction: row;
+                      }
+                      
+                      .instagram,
+                      .facebook,
+                      .youtoube,
+                      .twiter {
+                          display: flex;
+                          margin-top: 20px;
+                      }
+                      
+                      .instagram {
+                          margin-right: 10px;
+                      }
+                      
+                      .facebook {
+                          margin-right: 10px;
+                      }
+                      
+                      .youtoube {
+                          margin-right: 10px;
+                      }
+                      
+                      .twiter {
+                          margin-right: 10px;
+                      }
